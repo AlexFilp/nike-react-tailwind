@@ -1,6 +1,6 @@
 import { headerLogo } from "../assets/images";
 import { hamburger } from "../assets/icons";
-import { navLinks } from "../constans";
+import { navLinks } from "../constants";
 
 const Nav = () => {
   return (
@@ -15,7 +15,7 @@ const Nav = () => {
               <li key={link.label}>
                 <a
                   href={link.href}
-                  className="font-montherrat leading-normal text-lg text-slate-gray"
+                  className="font-montserrat leading-normal text-lg text-slate-gray"
                 >
                   {link.label}
                 </a>
